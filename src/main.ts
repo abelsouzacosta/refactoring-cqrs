@@ -7,15 +7,15 @@ export function alertForMiscreant(people) {
   for (const p of people) {
     if ("Don" === p) {
       setOffAlarms();
-      return "Don";
+      return;
     }
     if ("John" === p) {
       setOffAlarms();
-      return "John";
+      return;
     }
   }
 
-  return "";
+  return;
 }
 
 export function findMiscreant(people) {
@@ -34,5 +34,3 @@ export function findMiscreant(people) {
 function setOffAlarms() {
   return "Alarms off";
 }
-
-console.log(alertForMiscreant(["Don"]));
