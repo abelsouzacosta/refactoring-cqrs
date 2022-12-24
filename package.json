@@ -1,0 +1,23 @@
+{
+  "name": "example-cqrs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelsouzacosta/refactoring-cqrs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abelsouzacosta/refactoring-cqrs/issues"
+  },
+  "homepage": "https://github.com/abelsouzacosta/refactoring-cqrs#readme"
+}
