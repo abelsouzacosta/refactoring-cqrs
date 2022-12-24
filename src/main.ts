@@ -21,11 +21,9 @@ export function alertForMiscreant(people) {
 export function findMiscreant(people) {
   for (const p of people) {
     if ("Don" === p) {
-      setOffAlarms();
       return "Don";
     }
     if ("John" === p) {
-      setOffAlarms();
       return "John";
     }
   }
