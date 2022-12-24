@@ -1,5 +1,5 @@
 // @ts-nocheck
-function alertForMiscreant(people) {
+export function alertForMiscreant(people) {
   for (const p of people) {
     if ("Don" === p) {
       setOffAlarms();
